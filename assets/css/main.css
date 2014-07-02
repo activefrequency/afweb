@@ -314,7 +314,7 @@ header .scroll-down .btn:hover {
         position: absolute;
         top: 35%;
         left: 50%;
-        width: 50%;
+        width: 80%;
         margin: auto;
         text-align: center;
         color: #fff;
@@ -1159,4 +1159,70 @@ body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testi
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
     line-height: 55px;
+}
+
+/* header */
+
+
+@media(max-width: 479px) {
+     header .intro-content {
+        top: 35%;
+        left: 5%;
+        width: 90%;
+    }
+
+    header .brand-name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media(min-width: 480px) {
+     header .intro-content {
+        top: 35%;
+        left: 10%;
+        width: 80%;
+    }
+
+    header .brand-name {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media(min-width: 768px) {
+     header .intro-content {
+        top: 35%;
+        left: 50%;
+        width: 80%;
+    }
+
+    header .brand-name {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media(min-width: 960px) {
+     header .intro-content {
+        top: 35%;
+        width: 80%;
+    }
+
+    header .brand-name {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media(min-width: 1200px) {
+     header .intro-content {
+        top: 35%;
+        width: 60%;
+    }
+
+    header .brand-name {
+        font-size: 80px;
+        line-height: 80px;
+    }
 }
