@@ -72,4 +72,4 @@ $(window).on("load resize",function(e){
 // Scrollspy: Highlights the navigation menu items while scrolling.
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
